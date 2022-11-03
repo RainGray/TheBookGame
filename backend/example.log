@@ -1,0 +1,489 @@
+INFO:main:rid=G29AR6 start request path=/
+INFO:root:you are visiting main page
+INFO:main:rid=G29AR6 completed_in=1.00ms status_code=200
+INFO:main:rid=0MFV57 start request path=/docs
+INFO:main:rid=0MFV57 completed_in=1.00ms status_code=200
+INFO:main:rid=Q3IHOI start request path=/openapi.json
+INFO:main:rid=Q3IHOI completed_in=5.98ms status_code=200
+INFO:main:rid=HWEUPV start request path=/api/get_page_replys/Begin01
+INFO:main:rid=Y64BW3 start request path=/api/get_page_replys/Begin01
+INFO:root:Starting fetch_replys_for_page function
+INFO:root:succesfully get current page data from DB
+INFO:main:rid=A8N3P9 start request path=/api/get_page_replys/Begin01
+INFO:root:Starting fetch_replys_for_page function
+INFO:root:succesfully get current page data from DB
+INFO:root:<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\Blek4\AppData\Local\Programs\Python\Python310\lib\asyncio\futures.py:385]>
+INFO:main:rid=SCVAKK start request path=/api/get_page_replys/Begin01
+INFO:root:Starting fetch_replys_for_page function
+INFO:root:succesfully get current page data from DB
+INFO:root:<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\Blek4\AppData\Local\Programs\Python\Python310\lib\asyncio\futures.py:385]>
+INFO:main:rid=D0TN2Q start request path=/api/get_page_replys/Begin01
+INFO:root:Starting fetch_replys_for_page function
+INFO:root:succesfully get current page data from DB
+INFO:root:<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\Blek4\AppData\Local\Programs\Python\Python310\lib\asyncio\futures.py:385]>
+INFO:main:rid=Y67OYC start request path=/api/get_page_replys/Begin01
+INFO:root:Starting fetch_replys_for_page function
+INFO:main:rid=1T1475 start request path=/api/get_page_replys/Begin01
+INFO:root:Starting fetch_replys_for_page function
+INFO:root:succesfully get current page data from DB
+INFO:root:<coroutine object fetch_the_text at 0x0000025ABAF92340>
+INFO:main:rid=7N1NH4 start request path=/api/get_page_text/Begin01
+INFO:main:rid=JUCAC3 start request path=/api/get_page_text/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=JUCAC3 completed_in=9.97ms status_code=200
+INFO:main:rid=RK6G9F start request path=/docs
+INFO:main:rid=RK6G9F completed_in=1.00ms status_code=200
+INFO:main:rid=M9REC7 start request path=/openapi.json
+INFO:main:rid=M9REC7 completed_in=5.98ms status_code=200
+INFO:main:rid=MKBO6N start request path=/api/get_reply_by_id/begin_reply_01
+INFO:main:rid=MKBO6N completed_in=7.98ms status_code=200
+INFO:main:rid=3A6CJ4 start request path=/api/get_reply_by_id/begin_reply_05
+ERROR:root:Error during the response fetch by id
+INFO:main:rid=3A6CJ4 completed_in=1.99ms status_code=404
+INFO:main:rid=AO2ZSV start request path=/api/get_reply_by_id/begin_reply_05
+ERROR:root:Error during the response fetch by id
+INFO:main:rid=AO2ZSV completed_in=8.97ms status_code=404
+INFO:main:rid=WV8HND start request path=/api/get_reply_by_id/begin_reply_05
+ERROR:root:Error during the response fetch by id - searched id: begin_reply_05
+INFO:main:rid=WV8HND completed_in=6.98ms status_code=404
+INFO:main:rid=47I0WD start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=KXSVSA start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=HBDK8I start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=YW586P start request path=/docs
+INFO:main:rid=YW586P completed_in=1.00ms status_code=200
+INFO:main:rid=Q7I7RY start request path=/openapi.json
+INFO:main:rid=Q7I7RY completed_in=4.99ms status_code=200
+INFO:main:rid=LGZJ9S start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+ERROR:root:Error while getting replys list from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=L27974 start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+ERROR:root:Error while getting replys list from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=7Q5WE7 start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:succesfully get replys list from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=W2L80Q start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:succesfully get replys list from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:Succesfully extract the list of replys from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=SCK5LQ start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:we grab a page text during get_replys_for_page funcition
+INFO:root:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:succesfully get replys list from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:Succesfully extract the list of replys from {'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:root:['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:main:rid=RDGSB1 start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=10C8HA start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=QJTDPL start request path=/api/get_page_replys/Begin01
+INFO:main:{'_id': ObjectId('6361027446d9428a261d4c3d'), 'textID': 'Begin01', 'page_title': 'Strange tavern', 'illustration': 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/ddgj924-27954d13-1028-4eca-b1c7-114edfbd1ba3.jpg/v1/fill/w_582,h_350,q_70,strp/the_witch_s_inn_by_eddie_mendoza_ddgj924-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvMGM2ZTA1OTAtMDExYi00OTEyLWJmZTQtOTM1M2I2ZTVkYzk4XC9kZGdqOTI0LTI3OTU0ZDEzLTEwMjgtNGVjYS1iMWM3LTExNGVkZmJkMWJhMy5qcGciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IHokZMEkP11fqtjlmFMuXC3ekX5Ponvhudqqh4-JFQY', 'text': 'You approach some strange tavern. There is note in hadns that leads you to this place. Wonders of world and adventures of your life - says the old paper jammed between rude fingers. Should you explore it?', 'replys': ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']}
+INFO:main:rid=V7KHL8 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=0DHDJE start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=Q5IDU6 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:result return the [<coroutine object get_reply_by_id at 0x0000017E736B6AB0>, <coroutine object get_reply_by_id at 0x0000017E736B6650>, <coroutine object get_reply_by_id at 0x0000017E736B6B20>]
+INFO:main:rid=W46EPK start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=JSRGAD start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=FY09NS start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x00000188E96E2B90>
+INFO:main:rid=TU4AQC start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000001A16A4C2B90>
+INFO:main:rid=BWILS7 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x0000016862B62B90>
+INFO:main:rid=2RWELK start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000001BD20F72C00>
+INFO:main:rid=BKWM07 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000001695C2C2C00>
+INFO:main:rid=W6KZ7P start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000001EC3E956C70>
+INFO:main:rid=235SE2 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000001EC3EA5BBC0>
+INFO:main:rid=KG2XHL start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000002130BB22C70>
+INFO:main:rid=9W7DYA start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000002B021D42C70>
+INFO:main:rid=BQZWY4 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x00000237D2D22C70>
+INFO:main:rid=RXPSPO start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000002E571E02C70>
+INFO:main:rid=G84JB2 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x0000022E1ACD2CE0>
+INFO:main:rid=F7LOH6 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:-----here we are----- <coroutine object fetch_multiple_replys_by_id_list at 0x000002A141472C70>
+INFO:main:rid=ETQEQQ start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:initialize multiple reply fetching
+INFO:root:-=ini=-
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-=mini=-
+INFO:root:-----here we are----- None
+INFO:main:rid=GHBEJQ start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=MXHBGL start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=3E0PS1 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=G1VWU8 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=UF1M26 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:its not a list!!!!
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=WLKT0F start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:its not a list!!!!
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=KMDDUY start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:its not a list!!!!
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=WEQG97 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:its a list!
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=DBWPYA start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:its a list!
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=ZUZVS6 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=1P3S2T start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=0YU32Z start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=UBS99L start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=5RPF1L start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=HH790T start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:main:rid=1XHQQZ start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:main:rid=GZIZMU start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:The idList is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:main:rid=UKTPM7 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:The idList is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:main:rid=IALI4S start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:The idList is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the None for ID begin_reply_01
+INFO:main:rid=XIHVZE start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:The idList is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:main:rid=XQCXG2 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:The idList is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:main:rid=SCHQWO start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:main:rid=9RVWSV start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our map is: <map object at 0x0000024CEDDAE290>
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=H0GJYJ start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our map is: <map object at 0x000001D62E9FE260>
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=FV3RKJ start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=HH60GA start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=2317SH start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=0P8ED1 start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:We have a list
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:root:-----here we are----- None
+INFO:main:rid=21YAEY start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:We are retrive multiple preplys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000021615B5FB80>)
+INFO:root:-----here we are----- AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000021615B5FB80>)
+INFO:main:rid=O3KJUH start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:We are retrive multiple preplys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000013B8847E290>)
+INFO:root:-----here we are----- AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000013B8847E290>)
+INFO:main:rid=QSAVOE start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:main:rid=QAUJ90 start request path=/docs
+INFO:main:rid=QAUJ90 completed_in=1.00ms status_code=200
+INFO:main:rid=0IZTH2 start request path=/openapi.json
+INFO:main:rid=0IZTH2 completed_in=5.98ms status_code=200
+INFO:main:rid=MJ7GCG start request path=/api/test_fetching
+INFO:main:rid=ENRW2J start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:main:rid=N0DV3U start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:main:rid=6T9U6K start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:main:rid=6T9U6K completed_in=1.03ms status_code=200
+INFO:main:rid=HJBPU2 start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:main:rid=HJBPU2 completed_in=1.00ms status_code=200
+INFO:main:rid=MXKU43 start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!!perdole. Error while fetching multipole replys by id list
+INFO:main:rid=MXKU43 completed_in=0.00ms status_code=200
+INFO:main:rid=HXRBD0 start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=HXRBD0 completed_in=0.00ms status_code=200
+INFO:main:rid=L8TIRI start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=L8TIRI completed_in=1.00ms status_code=200
+INFO:main:rid=23HNP5 start request path=/api/add_reply
+INFO:main:rid=MYMRDX start request path=/openapi.json
+INFO:main:rid=MYMRDX completed_in=14.96ms status_code=200
+INFO:main:rid=8HZ2U0 start request path=/docs
+INFO:main:rid=8HZ2U0 completed_in=1.00ms status_code=200
+INFO:main:rid=RBNUTR start request path=/api/add_reply
+INFO:main:rid=0A8HF3 start request path=/api/add_reply
+INFO:main:rid=0A8HF3 completed_in=6.98ms status_code=200
+INFO:main:rid=6CCGMR start request path=/api/add_reply
+INFO:main:rid=6CCGMR completed_in=1.99ms status_code=200
+INFO:main:rid=9EBC3R start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=9EBC3R completed_in=0.99ms status_code=200
+INFO:main:rid=330SKD start request path=/docs
+INFO:main:rid=330SKD completed_in=1.00ms status_code=200
+INFO:main:rid=ECYMDD start request path=/openapi.json
+INFO:main:rid=ECYMDD completed_in=5.98ms status_code=200
+INFO:main:rid=QBLXDF start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=N7T6H5 start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=FMVLX8 start request path=/docs
+INFO:main:rid=FMVLX8 completed_in=1.00ms status_code=200
+INFO:main:rid=U0FNZQ start request path=/openapi.json
+INFO:main:rid=U0FNZQ completed_in=5.98ms status_code=200
+INFO:main:rid=2840BQ start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=NR2WAM start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the None for ID begin_reply_01
+INFO:main:rid=RU1UN3 start request path=/api/get_reply_by_id/begin_reply_01
+INFO:main:rid=RU1UN3 completed_in=2.99ms status_code=200
+INFO:main:rid=5TF9O4 start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the None for ID begin_reply_01
+INFO:main:rid=58V122 start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We are looking for str - its ok
+INFO:root:We get the None for ID begin_reply_01
+INFO:main:rid=81PR5V start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:main:rid=SA4A8D start request path=/api/test_fetching
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=SA4A8D completed_in=7.95ms status_code=200
+INFO:main:rid=Q5R12Z start request path=/api/get_page_replys/Begin01
+INFO:root:============== we get a replys list: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:============== strating to create list from it
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:root:-----here we are----- [{'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}, {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}, {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}]
+INFO:main:rid=Q5R12Z completed_in=3.99ms status_code=200
+INFO:main:rid=B9N0K4 start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=HDI72Q start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=11U3GV start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=BSXTAN start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=AS3DJN start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=CZ9E0I start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=0Z3RXE start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=9NN85Z start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
