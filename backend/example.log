@@ -487,3 +487,296 @@ INFO:main:rid=0Z3RXE start request path=/api/test_fetching
 ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
 INFO:main:rid=9NN85Z start request path=/api/test_fetching
 ERROR:root:!!!!!!!! Error while fetching multipole replys by id list
+INFO:main:rid=ARG7BD start request path=/docs
+INFO:main:rid=ARG7BD completed_in=1.00ms status_code=200
+INFO:main:rid=W9U0O5 start request path=/openapi.json
+INFO:main:rid=W9U0O5 completed_in=5.98ms status_code=200
+INFO:main:rid=28TVZ4 start request path=/api/test_fetching
+INFO:root:Next reply: {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}
+INFO:root:Next reply: {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}
+INFO:root:Next reply: {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}
+INFO:root:We are retrive multiple replys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x0000025E266B2050>)
+INFO:main:rid=ISEE5U start request path=/api/test_fetching
+INFO:root:Next reply: {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}
+INFO:root:Next reply: {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}
+INFO:root:Next reply: {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}
+INFO:root:We are retrive multiple replys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x00000296E3F77250>)
+INFO:main:rid=NGOMPB start request path=/api/test_fetching
+INFO:root:Next reply: {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}
+INFO:root:Next reply: {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}
+INFO:root:Next reply: {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}
+INFO:root:We are retrive multiple replys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x000001BE5FD77220>)
+INFO:main:rid=NGOMPB completed_in=19.36ms status_code=200
+INFO:main:rid=S7OF5H start request path=/api/test_fetching
+INFO:root:We are retrive multiple replys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x000001DE9CE27250>)
+INFO:main:rid=S7OF5H completed_in=20.08ms status_code=200
+INFO:main:rid=DSEMXW start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multiple replys by id list
+INFO:main:rid=1QQJHJ start request path=/api/test_fetching
+INFO:root:We are retrive multiple replys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x000001AAFC707250>)
+INFO:main:rid=1QQJHJ completed_in=29.36ms status_code=200
+INFO:main:rid=JB6HB1 start request path=/api/test_fetching
+ERROR:root:!!!!!!!! Error while fetching multiple replys by id list
+INFO:main:rid=G0XK1E start request path=/api/test_fetching
+INFO:root:We are retrive multiple replys by id list: AsyncIOMotorCursor(<pymongo.cursor.Cursor object at 0x000001958CA27250>)
+INFO:main:rid=NB8YCG start request path=/api/test_fetching
+INFO:root:We are retrive multiple replys by id list: [<class 'dict'>, {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}, {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}, {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}]
+INFO:main:rid=KVPKZZ start request path=/api/test_fetching
+INFO:root:We are retrive multiple replys by id list: [<class 'dict'>, {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}, {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}, {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}]
+INFO:main:rid=CMYAL4 start request path=/api/test_fetching
+INFO:root:We are retrive multiple replys by id list: [{'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'}, {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'}, {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'}]
+INFO:main:rid=CMYAL4 completed_in=38.87ms status_code=200
+INFO:main:rid=EI4M7Y start request path=/docs
+INFO:main:rid=EI4M7Y completed_in=0.00ms status_code=200
+INFO:main:rid=FH7BB8 start request path=/openapi.json
+INFO:main:rid=FH7BB8 completed_in=5.02ms status_code=200
+INFO:main:rid=UZHJGM start request path=/docs
+INFO:main:rid=UZHJGM completed_in=0.00ms status_code=200
+INFO:main:rid=I17IOL start request path=/openapi.json
+INFO:main:rid=I17IOL completed_in=1.00ms status_code=200
+INFO:main:rid=0HKV3A start request path=/docs
+INFO:main:rid=0HKV3A completed_in=0.00ms status_code=200
+INFO:main:rid=41ZVBL start request path=/openapi.json
+INFO:main:rid=41ZVBL completed_in=5.98ms status_code=200
+INFO:main:rid=1XNGW4 start request path=/docs
+INFO:main:rid=1XNGW4 completed_in=0.00ms status_code=200
+INFO:main:rid=C6FLQW start request path=/openapi.json
+INFO:main:rid=C6FLQW completed_in=5.98ms status_code=200
+INFO:main:rid=4UTGA0 start request path=/api/update_current_page
+INFO:main:rid=K6Z00C start request path=/api/update_current_page
+INFO:main:rid=E34WV5 start request path=/api/update_current_page
+INFO:main:rid=E9TAN3 start request path=/api/update_current_page
+INFO:main:rid=F8KOM8 start request path=/api/update_current_page
+INFO:main:rid=JQ0661 start request path=/api/update_current_page
+ERROR:root:Error while creating ckecker!
+INFO:root:Blank page was created
+INFO:main:rid=D4DMMQ start request path=/api/update_current_page
+ERROR:root:Error while creating ckecker!
+INFO:root:Blank page was created: {'textID': 'current_page', '_id': ObjectId('6364a97ab1d9eb04d721f6b0')}
+INFO:main:rid=XLPCR7 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364a97ab1d9eb04d721f6b0'), 'textID': 'current_page'} is created
+INFO:main:rid=3LS8C7 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364a97ab1d9eb04d721f6b0'), 'textID': 'current_page'} is created
+INFO:main:rid=OMEN27 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364a97ab1d9eb04d721f6b0'), 'textID': 'current_page'} was created
+INFO:main:rid=EPN90N start request path=/api/update_current_page
+ERROR:root:Error while creating ckecker!
+INFO:root:Blank page was created: {'textID': 'current_page', '_id': ObjectId('6364aba745f345c09e0bc6dd')}
+INFO:main:rid=B7EOO4 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'text for test', 'replys': ['reply01']} was created
+INFO:main:rid=XX7E2F start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'text for test', 'replys': ['reply01']} was created
+INFO:main:rid=AE5KIP start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:main:rid=HW406J start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:very usefull info
+INFO:main:rid=H7THW8 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x000001EDFF9DB060>
+INFO:main:rid=F9ILJJ start request path=/api/get_page_text/current_page
+INFO:main:rid=F9ILJJ completed_in=1.99ms status_code=200
+INFO:main:rid=OPJBJ0 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x0000018DAAA1B0D0>
+INFO:main:rid=R7WLR4 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x000001651544B140>
+INFO:root:Yaaay, we update the current page record!
+INFO:main:rid=DNPRTZ start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x000002AA11B1B140>
+INFO:root:Yaaay, we update the current page record!
+INFO:main:rid=T782WZ start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x000001EE50E9B1B0>
+INFO:root:Yaaay, we update the current page record!
+INFO:main:rid=T782WZ completed_in=26.05ms status_code=200
+INFO:main:rid=GULLKW start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x000001A3550CB1B0>
+INFO:root:Yaaay, we update the current page record!
+INFO:root:Return data tyupe is <class 'coroutine'>
+INFO:main:rid=L4SGXI start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: <coroutine object fetch_the_text at 0x0000024AAE62B140>
+INFO:main:rid=FJ4GAN start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']}
+INFO:root:Yaaay, we update the current page record!
+INFO:main:rid=FJ4GAN completed_in=18.64ms status_code=200
+INFO:main:rid=T079ZO start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']}
+INFO:root:Yaaay, we update the current page record!
+INFO:main:rid=T079ZO completed_in=27.59ms status_code=200
+INFO:main:rid=SMTJTU start request path=/docs
+INFO:main:rid=SMTJTU completed_in=0.00ms status_code=200
+INFO:main:rid=EHMFW0 start request path=/openapi.json
+INFO:main:rid=EHMFW0 completed_in=6.98ms status_code=200
+INFO:main:rid=G8UVD8 start request path=/api/update_current_page
+INFO:root:Checker {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'Begin01', 'illustration': 'some.jpg', 'text': 'new text for test', 'replys': ['reply01']} was created
+INFO:root:So eventually we get the: {'_id': ObjectId('6364aba745f345c09e0bc6dd'), 'textID': 'current_page', 'page_title': 'finnaly working arena', 'illustration': 'victory.jpg', 'text': 'hurrraaaay!', 'replys': ['done01']}
+INFO:root:Yaaay, we update the current page record!
+INFO:main:rid=G8UVD8 completed_in=5.98ms status_code=200
+INFO:main:rid=BLTK42 start request path=/api/get_page_text/current_page
+INFO:main:rid=BLTK42 completed_in=1.99ms status_code=200
+INFO:main:rid=SMH3F7 start request path=/docs
+INFO:main:rid=SMH3F7 completed_in=0.00ms status_code=200
+INFO:main:rid=DIWFVE start request path=/openapi.json
+INFO:main:rid=DIWFVE completed_in=0.00ms status_code=200
+INFO:main:rid=01UI4O start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['done01']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: done01
+INFO:root:We get the None for ID done01
+INFO:main:rid=PT0DWV start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['done01']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: done01
+INFO:root:We get the None for ID done01
+INFO:main:rid=VAE8EB start request path=/api/get_page_text/current_page
+INFO:main:rid=4U3808 start request path=/api/get_page_replys/current_page
+INFO:main:rid=VAE8EB completed_in=2.00ms status_code=200
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:main:rid=77Y9T6 start request path=/api/get_page_text/current_page
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:main:rid=77Y9T6 completed_in=2.00ms status_code=200
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=4U3808 completed_in=7.98ms status_code=200
+INFO:main:rid=DJPEAT start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=DJPEAT completed_in=3.99ms status_code=200
+INFO:main:rid=63DMBW start request path=/api/get_page_text/current_page
+INFO:main:rid=BW4FV7 start request path=/api/get_page_replys/current_page
+INFO:main:rid=63DMBW completed_in=2.00ms status_code=200
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:main:rid=VU4K5O start request path=/api/get_page_text/current_page
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:main:rid=VU4K5O completed_in=1.99ms status_code=200
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=BW4FV7 completed_in=9.98ms status_code=200
+INFO:main:rid=HEG7BP start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=HEG7BP completed_in=5.98ms status_code=200
+INFO:main:rid=MVOD1B start request path=/api/get_page_text/current_page
+INFO:main:rid=69BKD2 start request path=/api/get_page_replys/current_page
+INFO:main:rid=MVOD1B completed_in=2.99ms status_code=200
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:main:rid=RTG1X6 start request path=/api/get_page_text/current_page
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=69BKD2 completed_in=6.98ms status_code=200
+INFO:main:rid=RTG1X6 completed_in=2.99ms status_code=200
+INFO:main:rid=NGG2JZ start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=NGG2JZ completed_in=5.98ms status_code=200
+INFO:main:rid=1UUQMF start request path=/api/get_page_text/current_page
+INFO:main:rid=C3DP10 start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:main:rid=1UUQMF completed_in=4.95ms status_code=200
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=C3DP10 completed_in=10.96ms status_code=200
+INFO:main:rid=GH7CJC start request path=/api/get_page_text/current_page
+INFO:main:rid=QJC1PJ start request path=/api/get_page_replys/current_page
+INFO:main:rid=GH7CJC completed_in=2.99ms status_code=200
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:main:rid=Q1JJ82 start request path=/api/get_page_text/current_page
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:main:rid=Q1JJ82 completed_in=1.99ms status_code=200
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=QJC1PJ completed_in=6.98ms status_code=200
+INFO:main:rid=QK6CZW start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=QK6CZW completed_in=3.99ms status_code=200
+INFO:main:rid=NI8QVD start request path=/api/get_page_text/current_page
+INFO:main:rid=8NXJBE start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:main:rid=NI8QVD completed_in=8.98ms status_code=200
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:main:rid=WNQHA6 start request path=/api/get_page_text/current_page
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=WNQHA6 completed_in=2.99ms status_code=200
+INFO:main:rid=8NXJBE completed_in=13.96ms status_code=200
+INFO:main:rid=5ZY1D0 start request path=/api/get_page_replys/current_page
+INFO:root:We are at the database function fetch_multiple_replys_by_id_list
+INFO:root:Our list is: ['begin_reply_01', 'begin_reply_02', 'begin_reply_03']
+INFO:root:Our cursor is: []
+INFO:root:Current replyID: begin_reply_01
+INFO:root:We get the {'_id': ObjectId('63620313fdc6473e247d8083'), 'replyID': 'begin_reply_01', 'text': 'Dont be a scary cat. Lets check it', 'textID': 'Begin02'} for ID begin_reply_01
+INFO:root:Current replyID: begin_reply_02
+INFO:root:We get the {'_id': ObjectId('63620522fdc6473e247d8084'), 'replyID': 'begin_reply_02', 'text': 'Approach with cation', 'textID': 'Begin02'} for ID begin_reply_02
+INFO:root:Current replyID: begin_reply_03
+INFO:root:We get the {'_id': ObjectId('63620569fdc6473e247d8085'), 'replyID': 'begin_reply_03', 'text': 'Lets examine it.. from a far', 'textID': 'Begin01'} for ID begin_reply_03
+INFO:main:rid=5ZY1D0 completed_in=6.98ms status_code=200

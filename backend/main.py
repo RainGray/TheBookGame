@@ -1,7 +1,7 @@
 #from urllib import response
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from model import  PageText, Reply
+from model import PageText, Reply
 #import uvicorn 
 
 
@@ -23,9 +23,11 @@ from database import (
     create_reply,
     fetch_reply_by_replyid,
     fetch_multiple_replys_by_id_list,
-    fetch_multiple_replys_by_id_list_alt
+    fetch_multiple_replys_by_id_list_alt,
+    update_the_current_page_record
 
 )
+
 
 
 
@@ -104,6 +106,21 @@ async def post_reply(reply: Reply):
 
 
 
+#===========================Update Database Data==================================
+
+@app.post("/api/update_current_page/{page}", response_model=PageText)
+async def update_current_page(page):
+    _page = page
+    _page.textID = 'current_page'  #a little bit of protection - this field should stay the same all the time
+    try:
+        response = await update_the_current_page_record(_page)
+    except:
+        logging.error("Error while updating current page record from API")
+        raise HTTPException(400, "Error while updating current page record")
+    else:
+        logging.info('Yaaay, we update the current page record!')
+        return response
+
 
 
 #============================Page Text functions==================================
@@ -161,10 +178,6 @@ async def test_fetch():
     response = await fetch_multiple_replys_by_id_list_alt(['begin_reply_01', 'begin_reply_02', 'begin_reply_03'])
     return response
         
-
-
-
-
 
 
 

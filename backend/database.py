@@ -32,8 +32,31 @@ async def create_reply(reply):
     return document
 
 
+#===========================Updating Database Data================================
 
-
+async def update_the_current_page_record(page: PageText):
+    checker = await collection_texts.find_one({"textID": 'current_page'})
+    if checker:
+        logging.info(f'Checker {checker} was created')
+    else:
+        logging.error("Error while creating ckecker!")
+        try:
+            blank = await create_page_text({"textID": 'current_page'})
+        except:
+            logging.error('Error while creating blank page instead of ckecker')
+        else:
+            logging.info(f"Blank page was created: {blank}")
+    
+    await collection_texts.replace_one({"textID": 'current_page'}, {
+        "textID": page.textID,
+        "page_title": page.page_title,
+        "illustration": page.illustration,
+        "text": page.text,
+        "replys": page.replys
+    })
+    document = await fetch_the_text('current_page')
+    logging.info(f'So eventually we get the: {document}')
+    return document
 
 
 #============================Page Text functions==================================
@@ -72,16 +95,24 @@ async def fetch_multiple_replys_by_id_list(idList: list):
 
 
 async def fetch_multiple_replys_by_id_list_alt(idList: list):
-    try:
+    query = {
+        "replyID": {
+            "$in": idList,
+        }
+    }
+    output = []
+    try:    
         #the_replies = await collection_replys.find({'replyID': 'test'})
-        the_replies = await collection_replys.aggregate(
-            {'$match': {'replyID': 'test'}}
-        )
+        the_replies = collection_replys.find(query)
+        for reply in await the_replies.to_list(length=100):
+            #logging.info(f'Next reply: {reply}')
+            output.append(reply)
     except:
         logging.error('!!!!!!!! Error while fetching multiple replys by id list')
     else:
-        logging.info(f'We are retrive multiple replys by id list: {the_replies}')
-        return the_replies
+        logging.info(f'We are retrive multiple replys by id list: {output}')
+        return output
+
 
 
 
