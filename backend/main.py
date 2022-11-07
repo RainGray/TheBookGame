@@ -157,15 +157,15 @@ async def get_replys_for_page(textID: str):
     
     #convert our PageText to dictionary
     try:
-        replys_names = dict(page_text)
+        reply_dict = dict(page_text)
     except:
         logging.error(f'Error while getting replys list from {page_text}')
         
-    #extract list with replys from dictionary
+    #extract list of repliesID from dictionary
     try:
-        replys_list = replys_names['replys']
+        replys_list = reply_dict['replys']
     except:
-        logging.error(f'cant extract list of replys from {replys_names}')
+        logging.error(f'cant extract list of replys from {reply_dict}')
     
     #fetching all replies from DB according to our list
     replys_for_page = await fetch_multiple_replys_by_id_list(replys_list)
